@@ -1,0 +1,32 @@
+M02 03/29
+-States with simple splash arts created.
+-3 enemies jumping linearly up and down
+-saitama jumps linearly
+-saitama can punch the enemies and kill them.
+-once all enemies are defeated, saitama can proceed. Leads to win screen for now.
+-SELECT leads to lose screen from Game screen.
+
+
+M03 04/05
+-Jumping improved to be more natural. Not linear anymore
+-Collision Map logic implemented.
+-hOff and vOff adjusted.
+-Tried to implement clock on screen. Not completed. Need Office Hours.
+
+Notes for Next Milestone:
+-change ABSOLUTEGROUND to adjust for new sprite sizes
+-plans to change all states to Mode0
+-Draw actual usable backgrounds
+-include sounds
+-Add a clock for losing game if time runs out.
+
+M04 04/12
+-Timer Clock implemented. Timeout leads to lose screen.
+-Animation for Saitama implemented.
+-All states have been refactored into Mode0
+-Different background music for START, GAME, WIN, LOSE implemented.
+
+Notes for final version:
+- two more complex levels implemented.
+- cutscenes implemented at intro and between each levels
+- alpha blending attempt
